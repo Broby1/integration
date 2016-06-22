@@ -1,0 +1,74 @@
+
+body {
+	background: #ccc;
+}
+
+.conteneur-menu {
+	background: #3f3f3e;
+	height: 40px;
+	position: relative;
+}
+
+.menu {position: absolute;}
+
+.menu dl {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+.menu dt {
+	width: 160px;
+	display: block;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-right: dotted 1px #c98c51;
+	cursor: pointer;
+}
+
+dd {
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: #3f3f3e;
+}
+
+dd ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+dd ul li {display: block;}
+
+dd ul li a {
+	color: #c98c51;
+	width: 150px; /* pour ie pour accepter les blocs */
+	display: block; 
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	border-top: dotted 1px #c98c51;
+	border-bottom: dotted 1px #3f3f3e; /* pour IE sinon il n'eaccepte que l'on revienne en arrière dans le menu */
+}
+
+dd ul li a:hover {
+	background: #151515;
+	color: #fff;
+} 
+
+
+dl dd {display: none;}
+
+dl:hover dd{
+	display: block;
+}
+
+
+
+

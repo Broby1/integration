@@ -1,0 +1,268 @@
+
+
+/* ---- reset css ---- */
+@import url("spec/960_grid_systems/reset.css");
+
+
+
+/* ---------------------- style général  ------------------------ */
+ul li {
+	list-style-type: none;
+}
+
+li a, .compte a {
+	text-decoration: none;
+}
+
+
+.txt_capital {
+	text-transform: uppercase;
+}
+
+.txt_left {
+	text-align: left;
+}
+
+.txtcenter {
+	text-align: center;
+}
+
+
+.clear {
+	clear: both;
+}
+
+.bg_bleu { /* --- bg général bleu -- */
+
+	background: #265973;
+}
+
+.bg_gris {  /* -- bg général gris  & gris_clair ----- */
+	background: #e6e6e6;
+}
+
+.bg_gris_clair {
+background: #f3f3f3;	
+}
+
+.bg_jaune {  /* ---- bg général jaune --- */
+	background: #f3b90c; 
+}
+
+
+/* ----------------------  Container ------------------- */
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	background: #e6e6e6;
+}
+
+
+
+/* -------------------------------------------
+=== HEADER
+--------------------------------------------- */
+
+
+/* -------------------------------  Home -------------------------------- */
+
+.home {
+	height: 45px;
+}
+
+.home li {
+	display: inline;
+	margin-left: 5px;
+}
+
+.home li a {
+	color: #fff;
+	height: 34px;
+	letter-spacing: 2px;
+	display: inline-block;
+	padding: 10px 8px 0px 8px;
+}
+
+.home li a:hover, .home li a:active, .home li a:focus {
+	background: #bdeb8c;
+	border-top: 1px solid #f3b90c;
+}
+
+/* -------------------------------  .header_1  -------------------------------- */
+
+.header_1 {
+	height: 150px;
+	margin-bottom: 1px;
+}
+
+.logo {
+	margin: 0px  0 0 5px;
+	padding: 30px 0px 0 30px;
+	position: relative;
+}
+
+/* -------------------------------  .header_1 / formulaire -------------------------------- */
+
+.search, .compte {
+	float: right;
+	height: 30px;
+	margin-top: -40px;
+	display: inline;
+}
+
+.search {
+	margin-right: 320px;
+}
+
+.compte {
+	line-height: 30px;
+	padding: 3px 0 3px 4px;
+	margin-top: -44px;
+	margin-right: 16px;
+}
+
+.bt_compte { /* -- bouton jaune --*/
+	color: #fff;
+	padding: 8px 8px;
+	border: 1px solid #ccc;
+	background: #f3b90c;
+	border:none;
+}
+
+input[type="text"] {
+	width: 200px;
+	height: 27px;
+	border: 1px solid #79b5d3;
+}
+
+input[type="submit"] {
+	width: 100px;
+	height: 32px;
+	color: #fff;
+	border: none;
+	margin-left: -7px;
+	background: #79b5d3;
+}
+
+/* -------------------------------  Slide (grande image) -------------------------------- */
+
+.slide {
+	text-align: center;
+}
+
+.slide img {
+	z-index: 10;
+	margin-top: -16px;
+	box-shadow: 1px 1px 1px #333;
+}
+
+.baseline_slide {
+	z-index: 40;
+	margin-top: -20px;
+	border: 15px solid #265973;
+	box-shadow: 1px 1px 1px #333;
+}
+
+/* -------------------------------  navigation verticale -------------------------------- */
+
+
+.nav_vertical {
+	width: 220px;
+	padding-right: 20px;
+	background: #d9dadb;
+	margin-top: 50px;
+	float: left;
+}
+
+.nav_vertical li {
+	margin-top: 5px;
+}
+
+a.film { /* -- lien de nav -- */
+	color: #355463;
+	display: block;
+	padding-bottom: 5px;
+	padding: 5px 5px 5px 15px;
+	border-bottom: 1px solid #355463;
+}
+
+a.film::before { /* -- lien de nav -- */
+	content: " ";
+}
+
+a.film:hover { /* -- lien de nav -- */
+	text-indent: 10px;
+	font-weight: bold;
+}
+
+.tab_1 {	
+	width: 641px;
+	float: left;
+}
+
+/* -------------------------------  tableau -------------------------------- */
+
+table {
+	width: auto;
+	margin: 0px 0 0px 0px;
+	border-collapse: collapse;
+}
+
+ td {
+ 	width: 214px;
+ 	border: 3px solid #265973;
+ }
+
+
+ h1 {
+ 	margin: 7px; 
+ 	width: auto;
+ 	width: 650px;
+ 	float: left;
+ 	padding: 0 10px;
+ 	color: #fff;
+ }
+
+
+/* -------------------------------  affiche -------------------------------- */
+
+.affiche {
+	width: 380px;
+	padding: 3px 3px;
+	box-sizing:border-box;
+}
+
+.affiche img { /* --- icon dans tableau --- */
+	margin-right: 10px;
+}
+
+
+/* -------------------------------  bt_panier -------------------------------- */
+
+.bt_panier {
+	display: block;
+	color: #427b10;
+	padding: 5px 5px;
+	background: #bfc845;
+	border-radius: 5px 5px;
+	text-decoration: none;
+}
+
+.bt_panier:hover {
+	color: #000;
+	font-weight: bold;
+	background: #71eb28;
+	transition-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+

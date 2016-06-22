@@ -1,0 +1,430 @@
+
+	 * { margin: 0;
+	 	 padding: 0;
+	 	 }
+		
+	a {  
+		font-weight: normal;
+		text-decoration: none;
+	}
+
+	body { 
+	 	font-family: Arial, Helvetica, sans-serif;
+	 }
+
+	.clear {
+		clear: both;
+	}
+
+
+	h1 {
+		font-size: 1.2em;
+		color: #007FFF;
+		margin-bottom: 5px;
+		text-shadow: 1px 0px 0px #ccc;
+	}
+
+	h2 {
+		color: #000;
+		font-size: 1em;
+		margin-bottom: 5px;
+		margin-top: 17px;
+	}
+
+	h2.ref {
+	color: #fff; 
+	font-size: 1em;
+	margin-top: 0px;
+	padding: 8px 15px;
+	background: #007FFF;
+	}
+
+
+	h3 {
+		color: #2C75FF;
+		margin-top: 4px;
+		font-size: 0.8em;
+	}
+	
+
+	h4 {
+		color: #2C75FF;
+		margin-top: 10px;
+	}
+
+	strong {
+		color: gray;
+	}
+
+/* ------------------------  CONTAINER ------------------------- */
+
+	.container { 
+		width: 960px;
+		margin: 0 auto;
+	}
+
+/* ------------------------  HEADER / Logo ------------------------- */
+
+	header { 
+		height: 72px;
+		margin-bottom: 36px;
+	}	
+
+	.logo {
+		width: 290px;
+		height: 70px;
+		margin-top: 15px; 
+		background-image: url("../img/logo.png");
+	}
+
+/* ------------------------   HEADER / BT RESEAUX SOCIAUX (technique Sprite css)  ------------------------- */
+	
+	.reseaux_sociaux li { 
+		float: right;
+		margin-top: -35px;
+		margin-right: 10px;
+	}
+
+	.reseaux_sociaux a {text-indent: -5000px;}
+	.reseaux_sociaux span {	display: block; width: 36px; height: 36px;}
+	
+	.reseaux_sociaux #facebook span {background: url("../img/sprite.png") -252px 0px no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #facebook span:hover {background: url("../img/sprite.png") 0 -36px no-repeat; transition-duration: 1s;}
+	
+	.reseaux_sociaux #tweeter span {background: url("../img/sprite.png") -36px 0 no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #tweeter span:hover {background: url("../img/sprite.png") -36px -36px no-repeat; transition-duration: 1s;}
+	
+	.reseaux_sociaux #linkedin span {background: url("../img/sprite.png") -72px 0 no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #linkedin span:hover {background: url("../img/sprite.png") -72px -36px no-repeat; transition-duration: 1s; }
+	
+	.reseaux_sociaux #viadeo span {background: url("../img/sprite.png") -108px 0 no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #viadeo span:hover {background: url("../img/sprite.png") -108px -36px no-repeat; transition-duration: 1s; }
+	
+	.reseaux_sociaux #delicious span {background: url("../img/sprite.png") -144px 0 no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #delicious span:hover {background: url("../img/sprite.png") -144px -36px no-repeat; transition-duration: 1s; }
+	
+	.reseaux_sociaux #pinterest span {background: url("../img/sprite.png") -180px 0 no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #pinterest span:hover {background: url("../img/sprite.png") -180px -36px no-repeat; transition-duration: 1s; }
+	
+	.reseaux_sociaux #google span {background: url("../img/sprite.png") -216px 0 no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #google span:hover {background: url("../img/sprite.png") -216px -36px no-repeat; transition-duration: 1s;}
+	
+	.reseaux_sociaux #google span {background: url("../img/sprite.png") 0px 0 no-repeat; } /* le O O  est pour le background position */
+	.reseaux_sociaux #google span:hover {background: url("../img/sprite.png") -252px -36px no-repeat; transition-duration: 1s;}
+	
+
+ /* ------------------------ MENU  ------------------------- */		
+
+	.navigation {
+		width: 960px;
+		height: 72px;
+	}
+
+	nav { 
+		margin: 0;		 /* --- pour les navigateurs  ----*/
+		padding: 0;		 /* --- pour les navigateurs  ----*/
+		width: 667px;
+		height: 72px; 
+		float: left;
+		background: #2C75FF;
+	}
+
+	nav li { 
+		width: auto;
+		list-style: none;
+		display: inline-block;
+	}
+
+	nav a { 	
+		color: #fff;
+		margin: 0;		 /* --- pour les navigateurs  ----*/	
+		padding: 28px 31px; 
+		line-height: 72px; 
+		text-decoration: none;
+		text-transform: uppercase;
+		border-right: 1px #fff solid;
+	/*	text-shadow: 1px 1px 0px #000; */		 
+	}
+
+	nav a:hover, nav a:active, nav a:focus {
+		background: #77B5FE; 
+	}
+ /* ------------------------ FORMULAIRE SEARCH  ------------------------- */	
+
+form {
+	width: 225px;
+	height: 72px;	
+	float: right;	
+	line-height: 72px;
+	background: #EFEFEF;
+	padding: 0px 25px;
+}
+
+form:hover {
+	
+	background: #CDCD0D;
+	transition-duration : 2s;
+	cursor: wait;
+	padding: 0px 25px;
+}
+
+
+
+input.text {
+	padding: 10px;
+	margin-right: 10px;	
+	text-align: center;
+	border-radius: 3px 3px;
+	border: 1px solid #7F7F7F;
+}
+
+
+ input.search {
+	color: #fff;
+	padding: 10px;
+	font-size: 0.8em ;
+	text-align: center;
+	background: #2C75FF;
+	border-radius: 3px 3px;
+	border: 1px solid #0000FF;
+	text-transform: uppercase;
+}
+
+input.search:hover {
+	background: #808000;
+	transition-duration : 2s;
+}
+
+/* ------------------------ FORMULAIRE NEWSLETTER  ------------------------- */	
+
+form.newss {
+	width: 260px;
+	line-height: 90px;	
+	background: #EFEFEF;
+	padding: 4px 5px;
+}
+
+
+input.text_1 {		
+	padding: 10px;
+	margin-right: 10px;	
+	text-align: center;
+	border-radius: 3px 3px;
+	border: 1px solid #7F7F7F;
+}
+
+ input.newsletter {
+	color: #fff;
+	padding: 10px;
+	font-size: 0.8em ;
+	text-align: center;
+	background: #2C75FF;
+	border-radius: 3px 3px;
+	border: 1px solid #0000FF;
+	text-transform: uppercase;
+}
+
+
+ /* ------------------------ Wrapper_1 / (premier block de contenu avec aside)   ------------------------- */	
+
+.wrapper_1 {
+	width: 960px;
+	margin-top: 18px;
+}
+
+.article_1 {
+	float: left;
+	width: 670px;
+}
+
+.info_slider, .info {
+	color: #fff;
+	padding: 10px 5px;
+	background:rgba(000, 00, 00, 0.9);
+}
+
+.info_slider {
+	height: 129px;
+	margin-top: -4px;
+}
+
+ /* ------------------------ Wrapper_1 / aside_1 REFERENCES ------------------------- */
+
+.float_right_1 {
+	width: 275px;
+	height: 504px;
+	float: right;
+	border: 1px #000 none;
+	background: #EDEDED; 
+}
+
+	.float_right_1 li {
+		padding: 0;
+		margin: 0;
+		list-style: none;	
+		border-bottom: 2px solid #303030; 	
+	}
+
+	.float_right_1 a {
+		color: #BABABA;
+		display: block;
+		padding: 17px 17px; 	
+	}
+
+	 /* ------------------------ (aside_1 REFERENCES) / :HOVER :ACTIVE :FOCUS  ------------------------- */
+
+	.float_right_1 a:hover, 
+	.float_right_1 a:active,
+	.float_right_1 a:focus  {
+		color: #fff;
+		text-indent: 30px;
+		background: #2C75FF; 
+		transition-duration: 1s;
+		text-transform: uppercase;		 
+	}
+
+	 /* ----------------------------- OTHERS ------------------------------------------------ */
+
+	.others {
+		margin: 0;
+		padding: 0;
+		width: 960px;
+		margin-top: 36px;
+	}
+
+	 /* ----------------------------- OTHERS / .other_left   ------------------------------------------------ */
+
+
+	.others p.flotte-left { /*  pouir centrer l'image à gauche et l'espacer du texte en même temps */
+		float: left;
+		margin: 5px;
+	}
+
+	.other_left {
+		width: 225px;	
+		float: left;
+	}
+
+	.other_center {
+		float: left;
+		width: 432px;
+		text-align: justify;
+		margin-right: 12px; 
+	}
+
+	.news {
+		width: 238px;
+		float: left;
+		margin-left: 20px;
+		padding: 0 15px 10px 15px ;
+		border: 1px solid #7F7F7F; 
+
+	}
+
+	 /* ----------------------------- OTHERS /FORMULAIRE NEWSLETTER  ------------------------------------------------ */
+
+
+	.blanc {
+		color: #fff;
+	}
+
+
+	input.text_1 {
+	padding: 10px;
+	margin-right: 10px;	
+	text-align: center;
+	border-radius: 3px 3px;
+	border: 1px solid #7F7F7F;
+	}
+
+	 input.newsletter; {
+	color: #fff;
+	padding: 10px  10px;
+	font-size: 0.8em ;
+	text-align: center;
+	background: #2C75FF;
+	border-radius: 3px 3px;
+	border: 1px solid #0000FF;
+	text-transform: uppercase;
+	}
+
+
+	.newss {
+		float: right;
+		background: #2C75FF;
+		margin-top: 10px;
+		padding: 0px 1px;	
+	}
+
+	.newss h1 {
+		color: #fff; 
+	}
+
+
+/* ----------------------------- BOUTON DES ARTICLES  ------------------------------------------------ */
+
+	a.read_more {
+		color: #fff;
+		display: block;
+		padding: 7px 17px;
+		margin: 5px 5px; 
+		background: #2C75FF;
+	}
+
+	 a.gris {
+		color: #7F7F7F;
+		display: block;
+		margin: 5px 5px; 
+		padding: 7px 17px;
+		background: #CECECE;
+		border: 1px solid #7F7F7F;
+	}
+
+
+	a:hover {
+		transition-duration: 1s;
+	} 
+
+/* ----------------------------- FOOTER  ------------------------------------------------ */
+
+	footer {
+		width: 960px;
+		height: 20px;
+		line-height: 20px;
+		color: #fff;
+		text-align: center;
+		background: #000;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+

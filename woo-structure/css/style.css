@@ -1,0 +1,170 @@
+
+	/* ----------------- 
+		reset css 
+	---------------- */
+
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	body {
+		background: #706f6f;
+	}
+
+	a {
+		text-decoration: none;
+		display: inline-block;
+		font-weight: bold;
+		color: #993333;
+	}
+
+
+	li {
+		list-style-type: none;
+	}
+
+
+	h1,h2,h3 {
+		margin-bottom: 10px;
+	}
+
+
+	h2 {
+		font-weight: normal;
+		text-transform: uppercase;
+		color: #999999;
+	}
+
+
+	h2 span {
+		font-weight: normal;
+		text-transform: none;
+		color: #000;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+/* --------------- STRUCTURE DE LA PAGE -----------------*/
+
+	#container {
+		width: 980px;
+		margin: auto;
+		background: #fff; 
+	}
+
+	/* --------------- HEADER -----------------*/
+
+	header {
+		height: 190px;
+		width: 980px;
+		z-index: 1;
+		background-image: url("../img/fd-campus-cut2.jpg");
+	}
+
+	#logo {
+		width: 150px;
+		height: 150px;
+		z-index: 3;
+		float: left;
+		margin: 10px 10px;
+		background-image: url("../img/rosette-campus.png");
+	}
+
+	#titre {
+		text-transform: uppercase;
+		padding-top: 170px;
+		margin-right: 50px; 
+		color: #fff;
+		float:right;
+	}
+
+	nav {
+		height: 20px;
+		padding: 10px;
+		background: #000;
+	}
+	
+	nav a {
+		float: right;
+		margin-left: 500px;
+		color: #fff;
+	}
+
+	hr {
+		margin: 5px 0;
+	}
+
+	/* ---------------------------- coloneGauche ------------------------ */
+
+
+	.Gauche {
+		width: 700px;
+		padding: 15px;
+		float: left;
+	}
+
+	.coloneGauche {
+		width: 50%;
+		float: left;
+	}
+
+	.coloneDroite {
+		width: 50%;
+		min-height: 200px;
+		float: right;
+	}
+
+
+	/* ---------------------------- photo de luc ---- */
+	
+	.photo_luc {
+		width: 349px;
+		height: 436px;
+		background-image: url("../img/luc.jpg");
+	}
+
+	
+	/* ---------------------------- colone Droite ------------------------ */
+	
+	.Droite {
+		width: 235px;
+		float: left;
+		padding: 5px;
+		background: #999;
+	}
+
+	input [ type="submit"]{
+		width: 217px;
+		height: 28px;
+		background: #ccc;
+	}
+
+
+	.Droite a.seclect {
+		background: #ddd;
+		margin: 5px 5px;
+		padding: 5px 5px;
+		color: #993333;
+	}
+
+	.Droite a {
+		display: block;
+		padding: 15px;
+		color: #333333;
+		font-weight: normal;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	
+	/* ---------------------------- pied de page ------------------------ */
+
+	footer {
+		height: 15px;
+		clear: both;
+		background: #336666;
+	}
+

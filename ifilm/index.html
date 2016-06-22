@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Netflix</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/libs/utility.js"></script>
+	<script type="text/javascript" src="js/libs/less-1.5.1.min.js"></script>
+</head>
+
+<body onload="init();">
+
+	<div class="container">
+		<header class="header_0">
+			<div class="home  bg_bleu">
+				<ul>
+					<li><a href="#" class="txt_capital">home</a></li>
+					<li><a href="#" class="txt_capital">contact</a></li>
+				</ul>
+			</div> <!-- fin .home -->
+			<div class="header_1 bg_gris_clair">
+				<figure class="logo"><img src="assets/img/picto/logo-ifilm.png" width="210" height="72" title="logo" /></figure>
+					<form action="#" method="post" class="search" >
+						<input type="text" placeholder=" Rechercher le film . . ." class="txt_capital" />
+						<input type="submit" value="rechercher" class="txt_capital" />
+					</form>
+				<p class="compte bg_gris">
+					<a href="#" class="cpte_client txt_capital"><img src="assets/img/picto/panier-header.png" /> mon panier (0)</a>
+					<a href="#" class="cpte_client txt_capital bg_jaune bt_compte">mon compte</a>
+				</p>
+			</div> <!-- fin .header_1 -->
+			<figure class="slide bg_gris clear">
+				<img src="assets/img/slide_film/avengers.jpg" width="640" height="360" title="affiche du moment" class="txt_center" />
+			</figure>
+			<hr class="baseline_slide">
+		</header> <!-- fin .header_0 -->
+
+		<div class="main_content clear">
+			<nav class="nav_vertical">
+				<ul>
+					<li><a href="#" class="film">comedie</a></li>
+					<li><a href="#" class="film">comedie dramatique</a></li>
+					<li><a href="#" class="film">action</a></li>
+					<li><a href="#" class="film">science fiction</a></li>
+					<li><a href="#" class="film">drame</a></li>
+					<li><a href="#" class="film">comedie dramatique</a></li>
+					<li><a href="#" class="film">dessin animé</a></li>
+					<li><a href="#" class="film">policier</a></li>
+					<li><a href="#" class="film">thriller</a></li>
+					<li><a href="#" class="film">horreur</a></li>
+				</ul>
+			</nav> <!-- fin .nav_vertical -->
+
+			<table class="txtcenter"> <!-- fin table pour les films -->
+				<h1 class="txt_capital bg_jaune txt_left">Nouveautes</h1>
+					<tr>
+						<td class="affiche w214">
+							<figure>
+								<a href="assets/img/big_film/je_vais_bien.jpg"><img src="assets/img/small_film/je_vais_bien.jpg" width="129" height="180" alt=" Je vais bien, ne t'en fais pas." /></a>
+								<figcaption>
+									<h3>Je vais bien...</h3>
+								</figcaption>
+							</figure>
+							<p class="ico">
+								<img src="assets/img/picto/bluray.gif" title="lecteur bluray" width="39" height="20" class="ico" />
+								<img src="assets/img/picto/dvd.gif" title="lecteur dvd" width="37" height="20" class="ico" />
+								<img src="assets/img/picto/-10.jpg" title="interdit aux moins de 10 ans" width="15" height="15" class="-10ans" />
+							</p>
+							<a href="#" class="bt_panier">Acheter</a>
+						</td>
+
+						<td class="affiche w214">
+							<figure>
+								<a href="assets/img/big_film/asterix_jeux_olympiques.jpg"><img src="assets/img/small_film/asterix_jeux_olympiques.jpg" width="129" height="180" alt=" Asterix aux jeux olympiques" /></a>
+								<figcaption>
+									<h3>Asterix aux jeux</h3>
+								</figcaption>
+							</figure>
+							<p class="ico">
+								<img src="assets/img/picto/bluray.gif" title="lecteur bluray" width="39" height="20" class="ico" />
+								<img src="assets/img/picto/dvd.gif" title="lecteur dvd" width="37" height="20" class="ico" />
+								<img src="assets/img/picto/-10.jpg" title="interdit aux moins de 10 ans" width="15" height="15" class="-10ans" />
+							</p>
+							<a href="#" class="bt_panier">Acheter</a>
+						</td>
+
+						<td class="affiche w214">
+							<figure>
+								<a href="assets/img/big_film/transformer2.jpg"><img src="assets/img/small_film/transformer2.jpg" width="129" height="180" alt=" Transformers 2 :  la Revanche" /></a>
+								<figcaption>
+									<h3>Transformers 2 :  la Revanche</h3>
+								</figcaption>
+							</figure>
+							<p class="ico">
+								<img src="assets/img/picto/bluray.gif" title="lecteur bluray" width="39" height="20" class="ico" />
+								<img src="assets/img/picto/dvd.gif" title="lecteur dvd" width="37" height="20" class="ico" />
+								<img src="assets/img/picto/-10.jpg" title="interdit aux moins de 10 ans" width="15" height="15" class="-10ans" />
+							</p>
+							<a href="#" class="bt_panier">Acheter</a>
+						</td>
+					</tr>
+
+					<tr>
+
+						<td class="affiche w214">
+							<figure>
+								<a href="assets/img/big_film/trahison.jpg"><img src="assets/img/small_film/trahison.jpg" width="129" height="180" alt=" trahison" /></a>
+								<figcaption>
+									<h3>Trahison</h3>
+								</figcaption>
+							</figure>
+							<p class="ico">
+								<img src="assets/img/picto/bluray.gif" title="lecteur bluray" width="39" height="20" class="ico" />
+								<img src="assets/img/picto/dvd.gif" title="lecteur dvd" width="37" height="20" class="ico" />
+								<img src="assets/img/picto/-10.jpg" title="interdit aux moins de 10 ans" width="15" height="15" class="-10ans" />
+							</p>
+							<a href="#" class="bt_panier">Acheter</a>
+						</td>
+
+
+						<td class="affiche w214">
+							<figure>
+								<a href="assets/img/big_film/hyper_tension2.jpg"><img src="assets/img/small_film/hyper_tension2.jpg" width="129" height="180" alt=" trahison" /></a>
+								<figcaption>
+									<h3>Hyper tension 2</h3>
+								</figcaption>
+							</figure>
+							<p class="ico">
+								<img src="assets/img/picto/bluray.gif" title="lecteur bluray" width="39" height="20" class="ico" />
+								<img src="assets/img/picto/dvd.gif" title="lecteur dvd" width="37" height="20" class="ico" />
+								<img src="assets/img/picto/-10.jpg" title="interdit aux moins de 10 ans" width="15" height="15" class="-10ans" />
+							</p>
+							<a href="#" class="bt_panier">Acheter</a>
+						</td>
+
+						<td class="affiche w214">
+							<figure>
+								<a href="assets/img/big_film/star_trek.jpg"><img src="assets/img/small_film/star_trek.jpg" width="129" height="180" alt=" star_trek" /></a>
+								<figcaption>
+									<h3>Star_trek</h3>
+								</figcaption>
+							</figure>
+							<p class="ico">
+								<img src="assets/img/picto/bluray.gif" title="lecteur bluray" width="39" height="20" class="ico" />
+								<img src="assets/img/picto/dvd.gif" title="lecteur dvd" width="37" height="20" class="ico" />
+								<img src="assets/img/picto/-10.jpg" title="interdit aux moins de 10 ans" width="15" height="15" class="-10ans" />
+							</p>
+							<a href="#" class="bt_panier">Acheter</a>
+						</td>
+					</tr>
+
+						
+				</div><!-- fin .tab_1 -->
+			</table
+			<di> <a href="#"><strong>1</strong> <strong class="next clear">2 5 > > </strong></a></div>
+		</div> <!-- fin .main_content -->
+	</div> <!-- fin .container -->
+	<footer class="footer bg_bleu"></footer>
+	
+	
+	<script>
+			function init() {
+				log('@ready to rock');
+			}
+	</script>
+
+</body>
+</html>
