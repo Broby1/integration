@@ -1,0 +1,108 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+$colorGray : #eee;
+$colorC : #ccc;
+$colorOrange : orange;
+$colorBlanc : #fff;
+
+
+
+body {
+	background: $colorBlanc;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.grid-wrapper {
+	width: 1024px;
+	background: $colorBlanc;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.grid-content {
+	margin: 0 auto; 
+	width: 980px;
+	padding-bottom: 20px;
+}
+
+.section-1 img.item,
+.section-2 img.item {
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.section-1 img.item:hover,
+.section-2 img.item:hover {
+	background: darken($colorOrange, 10%);
+	cursor: pointer;
+	box-shadow: 1px 0px 1px 0px $colorOrange;
+}
+
+
+.grid-search .logo {
+	display: inline-block;
+	position: relative;
+	left: 200px;
+}
+
+.float-r {
+	float: right;
+}
+
+.menu a.trigger {
+	margin-right: 30px;
+	margin-top: 8px;
+	text-decoration: none;
+}
+
+.menu a.trigger:hover {
+	text-decoration: underline;
+}
+
+
+
+input[type="search"] {
+	border: 1px solid darken($colorGray, 10%);
+	height: 50px;
+	width: 90%;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+  	font-size: 1.2em;
+  	font-style: normal;
+  	padding-left: 20px;
+}
+
+input[type="search"]:hover {
+	background: lighten($colorGray, 10%);
+}
+
+input[placeholder] {
+	color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

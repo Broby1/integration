@@ -1,0 +1,87 @@
+/* line 1, ../sass/screen.scss */
+.grid-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  text-align: center;
+  background: #ffedcc;
+}
+
+/* line 9, ../sass/screen.scss */
+.grid-navigation {
+  margin-bottom: 10px;
+  height: 50px;
+  background: #996300;
+}
+
+/* line 15, ../sass/screen.scss */
+.grid-aside {
+  float: right;
+  width: 400px;
+  background: #ffff99;
+  height: 600px;
+  margin-bottom: 10px;
+}
+
+/* line 23, ../sass/screen.scss */
+.main-content {
+  width: 600px;
+  height: 600px;
+  float: left;
+  background: #4dff4d;
+}
+
+/* line 30, ../sass/screen.scss */
+.footer {
+  margin-top: 10px;
+  height: 60px;
+  background: #999999;
+  clear: both;
+}
+
+/* ---------------- MEDIA QUERIES   ----------------- */
+@media screen and (max-width: 640px) {
+  /* line 44, ../sass/screen.scss */
+  .grid-wrapper {
+    background: #eee;
+  }
+
+  /* line 48, ../sass/screen.scss */
+  .grid-navigation,
+  .main-content,
+  .grid-aside,
+  .footer {
+    display: block;
+    clear: both;
+    width: 400px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+  }
+
+  /* line 61, ../sass/screen.scss */
+  .grid-navigation {
+    background: #b3b3b3;
+    margin-top: 5px;
+  }
+
+  /* line 66, ../sass/screen.scss */
+  .main-content {
+    margin-bottom: 10px;
+    background: #f3a6f3;
+  }
+
+  /* line 72, ../sass/screen.scss */
+  .grid-aside {
+    float: left;
+    width: 400px;
+    background: #ff1aff;
+  }
+
+  /* line 78, ../sass/screen.scss */
+  .footer {
+    background: #ff9999;
+    clear: both;
+  }
+}
